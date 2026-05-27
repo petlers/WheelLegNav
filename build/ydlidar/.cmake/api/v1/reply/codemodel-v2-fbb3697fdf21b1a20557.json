@@ -1,0 +1,246 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f57b93c9fb08c2729afe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "sdk/core",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-sdk.core-ab3b3b37ca271728aad5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sdk/core"
+				},
+				{
+					"build" : "sdk/core/base",
+					"jsonFile" : "directory-sdk.core.base-95baf3c65bda4b4a7e78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "sdk/core/base"
+				},
+				{
+					"build" : "sdk/core/common",
+					"jsonFile" : "directory-sdk.core.common-cfdfa0db7f8367032f7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "sdk/core/common"
+				},
+				{
+					"build" : "sdk/core/json",
+					"jsonFile" : "directory-sdk.core.json-dc9ad46f5e1ca46bc875.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "sdk/core/json"
+				},
+				{
+					"build" : "sdk/core/math",
+					"jsonFile" : "directory-sdk.core.math-e6a11de404e021cf5df1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "sdk/core/math"
+				},
+				{
+					"build" : "sdk/core/network",
+					"jsonFile" : "directory-sdk.core.network-545ca467b01d6dbff7e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "sdk/core/network"
+				},
+				{
+					"build" : "sdk/core/serial",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-sdk.core.serial-3ce35b1ded326ebe4e6c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "sdk/core/serial"
+				},
+				{
+					"build" : "sdk/core/serial/impl",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-sdk.core.serial.impl-7ecb6bba818ee08d5129.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "sdk/core/serial/impl"
+				},
+				{
+					"build" : "sdk/core/serial/impl/unix",
+					"jsonFile" : "directory-sdk.core.serial.impl.unix-3596f84d791d32662819.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "sdk/core/serial/impl/unix"
+				},
+				{
+					"build" : "sdk/src",
+					"childIndexes" : 
+					[
+						11
+					],
+					"jsonFile" : "directory-sdk.src-fef97c7dd45b507b701b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sdk/src"
+				},
+				{
+					"build" : "sdk/src/filters",
+					"jsonFile" : "directory-sdk.src.filters-455fcfd84fddfe004206.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "sdk/src/filters"
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "ydlidar",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4b6316975a9fcbb87148.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_client-e99f92a9554f2e99e3fa.json",
+					"name" : "ydlidar_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_node-9e3fe15642d967feecc9.json",
+					"name" : "ydlidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_uninstall-89a726b337726e7e3e60.json",
+					"name" : "ydlidar_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cat/fishbot_ws/build/ydlidar",
+		"source" : "/home/cat/fishbot_ws/src/ydlidar_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

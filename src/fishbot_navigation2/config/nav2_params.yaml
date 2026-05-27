@@ -1,0 +1,445 @@
+# 如何运行？
+# ros2 launch fishbot_navigation2 navigation2.launch.py \
+#     map:=src/fishbot_navigation2/maps/room.yaml \
+#     params_file:=src/fishbot_navigation2/config/nav2_params.yaml
+
+
+
+
+
+
+
+
+
+# 蒙特卡洛用来定位的
+# 根据激光雷达数据+已知地图+里程计信息，估计机器人在地图中的实施位姿（x，y，yaw）
+# AMCL三大输入
+# /scan 激光数据，与地图进行匹配，修正位置误差
+# /odom 里程计，提供初始位姿预测，供例子滤波器更新
+# /map 静态地图，已知环境地图，用于匹配激光数据
+
+#AMCL的输出
+# /amcl_pose 当前估计的机器人位姿（带协方差）
+# /tf 发布map -> odom 的变换，完成全局定位
+
+# 如果你还没地图，得先用 SLAM（如 slam_toolbox、cartographer） 建图，再用 AMCL 定位。
+# 如果你启动rviz的时候，只有静态地图而没有机器人的位置。说明map到odom的tf变换流程没完成，使用rqt可以看到缺了这一步变换。
+# 原因是amcl节点一定得在rviz中使用2D Pose Estimate，手动给一个估计位置。
+# 然后AMCL就会随机撒一堆粒子（初始均匀分布）
+# 激光数据进来后，粒子权重会根据“激光与地图匹配程度”更新
+# 权重高的粒子留下，低的淘汰
+# 最终粒子收敛，机器人就知道自己在地图中的位置
+
+
+
+amcl:   
+  ros__parameters:
+    use_sim_time: False    #设置为False适用于真实机器人部署
+    alpha1: 0.2
+    alpha2: 0.2
+    alpha3: 0.2
+    alpha4: 0.2
+    alpha5: 0.2
+    base_frame_id: "base_link"
+    beam_skip_distance: 0.5
+    beam_skip_error_threshold: 0.9
+    beam_skip_threshold: 0.3
+    do_beamskip: false
+    global_frame_id: "map"
+    lambda_short: 0.1
+    laser_likelihood_max_dist: 2.0
+    laser_max_range: 100.0      # 建议根据实际激光雷达最大范围调整（米）
+    laser_min_range: -1.0
+    laser_model_type: "likelihood_field"     # 使用大多数2D激光雷达
+    max_beams: 60
+    max_particles: 2000     #粒子数范围
+    min_particles: 500
+    odom_frame_id: "odom"
+    pf_err: 0.05
+    pf_z: 0.99
+    recovery_alpha_fast: 0.0
+    recovery_alpha_slow: 0.0
+    resample_interval: 1
+    robot_model_type: "nav2_amcl::DifferentialMotionModel"
+    save_pose_rate: 0.5
+    sigma_hit: 0.2
+    tf_broadcast: true
+    transform_tolerance: 1.0
+    update_min_a: 0.2      #控制定位更新频率
+    update_min_d: 0.25
+    z_hit: 0.5
+    z_max: 0.05
+    z_rand: 0.5
+    z_short: 0.05
+    scan_topic: scan
+
+# bt_navigator是NAV2的任务调度器
+# 它把“走到目标点”这一高层指令，拆成“全局规划->局部规划->执行->恢复”这一串行为树BT动作
+bt_navigator:
+  ros__parameters:
+    use_sim_time: False
+    global_frame: map
+    robot_base_frame: base_link
+    odom_topic: /odom
+    bt_loop_duration: 10  # 行为树每轮tick周期
+    default_server_timeout: 20 # 任一NAV2服务无响应时的最大等待
+    wait_for_service_timeout: 1000 #启动时等待 planner/controller 等服务就绪的最长时间
+    # 'default_nav_through_poses_bt_xml' and 'default_nav_to_pose_bt_xml' are use defaults:
+    # nav2_bt_navigator/navigate_to_pose_w_replanning_and_recovery.xml
+    # nav2_bt_navigator/navigate_through_poses_w_replanning_and_recovery.xml
+    # They can be set here or via a RewrittenYaml remap from a parent launch file to Nav2.
+    plugin_lib_names:
+      - nav2_compute_path_to_pose_action_bt_node
+      - nav2_compute_path_through_poses_action_bt_node
+      - nav2_smooth_path_action_bt_node
+      - nav2_follow_path_action_bt_node
+      - nav2_spin_action_bt_node
+      - nav2_wait_action_bt_node
+      - nav2_assisted_teleop_action_bt_node
+      - nav2_back_up_action_bt_node
+      - nav2_drive_on_heading_bt_node
+      - nav2_clear_costmap_service_bt_node
+      - nav2_is_stuck_condition_bt_node
+      - nav2_goal_reached_condition_bt_node
+      - nav2_goal_updated_condition_bt_node
+      - nav2_globally_updated_goal_condition_bt_node
+      - nav2_is_path_valid_condition_bt_node
+      - nav2_initial_pose_received_condition_bt_node
+      - nav2_reinitialize_global_localization_service_bt_node
+      - nav2_rate_controller_bt_node
+      - nav2_distance_controller_bt_node
+      - nav2_speed_controller_bt_node
+      - nav2_truncate_path_action_bt_node
+      - nav2_truncate_path_local_action_bt_node
+      - nav2_goal_updater_node_bt_node
+      - nav2_recovery_node_bt_node
+      - nav2_pipeline_sequence_bt_node
+      - nav2_round_robin_node_bt_node
+      - nav2_transform_available_condition_bt_node
+      - nav2_time_expired_condition_bt_node
+      - nav2_path_expiring_timer_condition
+      - nav2_distance_traveled_condition_bt_node
+      - nav2_single_trigger_bt_node
+      - nav2_goal_updated_controller_bt_node
+      - nav2_is_battery_low_condition_bt_node
+      - nav2_navigate_through_poses_action_bt_node
+      - nav2_navigate_to_pose_action_bt_node
+      - nav2_remove_passed_goals_action_bt_node
+      - nav2_planner_selector_bt_node
+      - nav2_controller_selector_bt_node
+      - nav2_goal_checker_selector_bt_node
+      - nav2_controller_cancel_bt_node
+      - nav2_path_longer_on_approach_bt_node
+      - nav2_wait_cancel_bt_node
+      - nav2_spin_cancel_bt_node
+      - nav2_back_up_cancel_bt_node
+      - nav2_assisted_teleop_cancel_bt_node
+      - nav2_drive_on_heading_cancel_bt_node
+      - nav2_is_battery_charging_condition_bt_node
+
+# 处理单目标导航 (/navigate_to_pose) 的 action server
+bt_navigator_navigate_through_poses_rclcpp_node:
+  ros__parameters:
+    use_sim_time: False
+
+# 处理多目标连续导航 (/navigate_through_poses) 的 action server
+bt_navigator_navigate_to_pose_rclcpp_node:
+  ros__parameters:
+    use_sim_time: False
+
+# 控制器服务器“局部轨迹规划器”
+# 决定机器人如何沿着全局路径走，怎么避障、怎么停
+controller_server:
+  ros__parameters:
+    use_sim_time: False
+    controller_frequency: 20.0
+    min_x_velocity_threshold: 0.001
+    min_y_velocity_threshold: 0.5
+    min_theta_velocity_threshold: 0.001
+    failure_tolerance: 0.3
+    progress_checker_plugin: "progress_checker"
+    goal_checker_plugins: ["general_goal_checker"] # "precise_goal_checker"
+    controller_plugins: ["FollowPath"]
+
+    # Progress checker parameters
+    # 防止卡死检测：10秒没移动0.5m就报失败
+    progress_checker:
+      plugin: "nav2_controller::SimpleProgressChecker"
+      required_movement_radius: 0.5
+      movement_time_allowance: 10.0
+    # Goal checker parameters
+    #precise_goal_checker:
+    #  plugin: "nav2_controller::SimpleGoalChecker"
+    #  xy_goal_tolerance: 0.25
+    #  yaw_goal_tolerance: 0.25
+    #  stateful: True
+
+    # 判断到没到：位置0.25m / 角度0.25rad以内就算到达
+    general_goal_checker:
+      stateful: True
+      plugin: "nav2_controller::SimpleGoalChecker"
+      xy_goal_tolerance: 0.25
+      yaw_goal_tolerance: 0.25
+    
+    
+    # DWB parameters
+    # 局部轨迹规划器，20HZ采样轨迹 -> 打分 -> 选最优
+    FollowPath:
+      plugin: "dwb_core::DWBLocalPlanner"
+      debug_trajectory_details: True
+      min_vel_x: 0.0
+      min_vel_y: 0.0
+      max_vel_x: 0.26
+      max_vel_y: 0.0
+      max_vel_theta: 1.0
+      min_speed_xy: 0.0
+      max_speed_xy: 0.26
+      min_speed_theta: 0.0
+      # Add high threshold velocity for turtlebot 3 issue.
+      # https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues/75
+      acc_lim_x: 2.5
+      acc_lim_y: 0.0
+      acc_lim_theta: 3.2
+      decel_lim_x: -2.5
+      decel_lim_y: 0.0
+      decel_lim_theta: -3.2
+
+      # 采样密度（轨迹条数）
+      vx_samples: 20      # 低于15条轨迹"肉眼可见"变粗糙
+      vy_samples: 5       
+      vtheta_samples: 20
+      
+      # 前向仿真时长（保守度）
+      sim_time: 1.7   # 越长越保守（看得远），越短越激进
+
+
+
+      linear_granularity: 0.05
+      angular_granularity: 0.025
+      transform_tolerance: 0.2
+
+
+      xy_goal_tolerance: 0.25    #和 goal_checker 里保持一致；想“厘米级停车”就 0.1 m
+      trans_stopped_velocity: 0.25    # 必须 < max_vel_x ，否则永远判“还在动”
+
+
+      short_circuit_trajectory_evaluation: True    # 提前淘汰必撞轨迹，保持 True 能省 30% CPU
+      stateful: True     # 记住上一周期最优速度，True 更平滑；调参时可设 False 看纯单帧效果
+      critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "PathDist", "GoalDist"]
+      BaseObstacle.scale: 0.02
+      PathAlign.scale: 32.0
+      PathAlign.forward_point_distance: 0.1
+      GoalAlign.scale: 24.0
+      GoalAlign.forward_point_distance: 0.1
+      PathDist.scale: 32.0
+      GoalDist.scale: 24.0
+      RotateToGoal.scale: 32.0
+      RotateToGoal.slowing_factor: 5.0
+      RotateToGoal.lookahead_time: -1.0
+
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      
+      
+      update_frequency: 5.0  # 意味着代价地图每秒更新五次，但只发布2次
+      publish_frequency: 2.0
+
+
+      global_frame: odom
+      robot_base_frame: base_link
+      use_sim_time: False
+      rolling_window: true   #表示代价地图会随着机器人移动而移动
+
+      # 意味着代价地图是一个3x3米，分辨率为5cm的网络
+      width: 3
+      height: 3
+      resolution: 0.05
+
+      # 设置为0.22，与机器人半径匹配
+      robot_radius: 0.22
+
+      # plugins列表中包含voxel_layer和inflation_layer，这意味着局部代价地图将使用这两种插件来处理障碍物和膨胀代价
+      plugins: ["voxel_layer", "inflation_layer"]
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        
+        # 控制障碍物周围的代价膨胀
+        cost_scaling_factor: 3.0 
+        inflation_radius: 0.55
+
+
+      # 体素层（Voxel Layer）
+      # 把二维的栅格地图升级成三维的体素地图
+      # 一句话，把空间切成小方块（体素），每个方块记录有没有障碍物，以解决2D地图里没有高度信息的问题（悬空障碍物）
+      # 体素 = 体积像素（Volume Pixel）
+      # 二维叫像素pixel，三维叫体素voxel
+      # 想象把空间用均匀的小立方体切分，每个小立方体就是一个体素，只有两种状态：
+      # 被击中(marked) 激光落在里面 -> 有东西
+      # 被穿过（cleared） 激光射线穿过它 -> 空闲
+      voxel_layer:
+        plugin: "nav2_costmap_2d::VoxelLayer"
+        enabled: True
+        publish_voxel_map: True
+        origin_z: 0.0   # 体素网格底部离地高度
+        z_resolution: 0.05 # 体素高度(m)，越小越细，内存越大
+        z_voxels: 16 # 垂直层数，总高为z_resolution * z_voxels 
+        max_obstacle_height: 2.0 # 高于此值的激光点直接丢弃
+        mark_threshold: 0 # 同一体素被命中几次才认定为障碍，抗噪
+        observation_sources: scan 
+        scan:
+          topic: /scan
+          max_obstacle_height: 2.0
+          clearing: True
+          marking: True
+          data_type: "LaserScan"
+          raytrace_max_range: 3.0
+          raytrace_min_range: 0.0
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"
+        map_subscribe_transient_local: True
+
+      # 意味着每次更新时都会发布完整的代价地图，而不是仅发布变换的部分
+      always_send_full_costmap: True
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      update_frequency: 1.0
+      publish_frequency: 1.0
+      global_frame: map
+      robot_base_frame: base_link
+      use_sim_time: False
+      robot_radius: 0.22
+      resolution: 0.05
+      track_unknown_space: true
+      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        enabled: True
+        observation_sources: scan
+        scan:
+          topic: /scan
+          max_obstacle_height: 2.0
+          clearing: True
+          marking: True
+          data_type: "LaserScan"
+          raytrace_max_range: 3.0
+          raytrace_min_range: 0.0
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"
+        map_subscribe_transient_local: True
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        cost_scaling_factor: 3.0
+        inflation_radius: 0.55
+      always_send_full_costmap: True
+
+# 地图加载器
+map_server:
+  ros__parameters:
+    use_sim_time: False
+    # Overridden in launch by the "map" launch configuration or provided default value.
+    # To use in yaml, remove the default "map" value in the tb3_simulation_launch.py file & provide full path to map below.
+    
+    # 空值表示不在yaml中指定地图文件，而是从launch脚本通过 --map传参进来
+    yaml_filename: ""
+
+map_saver:
+  ros__parameters:
+    use_sim_time: False
+    save_map_timeout: 5.0
+    free_thresh_default: 0.25
+    occupied_thresh_default: 0.65
+    map_subscribe_transient_local: True
+
+# 全局路径规划器 
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 20.0  # Navfn是单线程CPU实现，地图大一点就泡不到20HZ
+    use_sim_time: False
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      tolerance: 0.5   # 目标点容忍半径m
+      use_astar: false # false -> Dijkstra， true -> A*
+      allow_unknown: true # 允许穿过未知区域
+
+# 路径平滑
+smoother_server:
+  ros__parameters:
+    use_sim_time: False
+    smoother_plugins: ["simple_smoother"]
+    simple_smoother:
+      plugin: "nav2_smoother::SimpleSmoother"
+
+      # 只是后处理，把全局路径拉直减少急转弯
+      # 参数已经保守，不用动；真出现“平滑后路径反而撞障碍物”，再减tolerance或关do_refinement
+      tolerance: 1.0e-10
+      max_its: 1000
+      do_refinement: True
+
+# 局部应急行为
+behavior_server:
+  ros__parameters:
+    costmap_topic: local_costmap/costmap_raw
+    footprint_topic: local_costmap/published_footprint
+    cycle_frequency: 10.0
+    behavior_plugins: ["spin", "backup", "drive_on_heading", "assisted_teleop", "wait"]
+    spin:
+      plugin: "nav2_behaviors/Spin"
+    backup:
+      plugin: "nav2_behaviors/BackUp"
+    drive_on_heading:
+      plugin: "nav2_behaviors/DriveOnHeading"
+    wait:
+      plugin: "nav2_behaviors/Wait"
+    assisted_teleop:
+      plugin: "nav2_behaviors/AssistedTeleop"
+    global_frame: odom
+    robot_base_frame: base_link
+    transform_tolerance: 0.1
+    use_sim_time: False
+    simulate_ahead_time: 2.0
+    max_rotational_vel: 1.0
+    min_rotational_vel: 0.4
+    rotational_acc_lim: 3.2
+
+robot_state_publisher:
+  ros__parameters:
+    use_sim_time: False
+
+# 航点巡逻
+waypoint_follower:
+  ros__parameters:
+    use_sim_time: False
+    loop_rate: 20
+    stop_on_failure: false
+    waypoint_task_executor_plugin: "wait_at_waypoint"
+    wait_at_waypoint:
+      plugin: "nav2_waypoint_follower::WaitAtWaypoint"
+      enabled: True
+      waypoint_pause_duration: 200
+
+# 速度滤波器
+velocity_smoother:
+  ros__parameters:
+    use_sim_time: False
+    smoothing_frequency: 20.0
+    scale_velocities: False
+    feedback: "OPEN_LOOP" # OPEN_LOOP表示不看里程计，纯靠命令平滑；若里程计很准可改"CLOSED_LOOP" 跟踪更稳
+    max_velocity: [0.26, 0.0, 1.0]
+    min_velocity: [-0.26, 0.0, -1.0]
+    max_accel: [2.5, 0.0, 3.2]
+    max_decel: [-2.5, 0.0, -3.2]
+    odom_topic: "odom"
+    odom_duration: 0.1
+    deadband_velocity: [0.0, 0.0, 0.0]
+    velocity_timeout: 1.0
+
+
+

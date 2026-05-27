@@ -1,0 +1,22 @@
+[0.134s] Invoking command in '/home/cat/fishbot_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/fishbot_description -- -j8 -l8
+[1.636s] Invoked command in '/home/cat/fishbot_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/fishbot_description -- -j8 -l8
+[1.691s] Invoking command in '/home/cat/fishbot_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/fishbot_description
+[1.732s] -- Install configuration: ""
+[1.732s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/urdf
+[1.733s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot.urdf
+[1.734s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[1.735s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[1.736s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[1.739s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[1.740s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[1.741s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[1.742s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[1.742s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[1.743s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[1.746s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[1.753s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[1.769s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[1.770s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[1.770s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[1.771s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/package.xml
+[1.850s] Invoked command in '/home/cat/fishbot_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/fishbot_description

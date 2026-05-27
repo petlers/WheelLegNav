@@ -1,0 +1,191 @@
+[0.032s] Invoking command in '/home/cat/fishbot_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/cat/fishbot_ws/install/lslidar_msgs:/home/cat/fishbot_ws/install/ydlidar:/home/cat/fishbot_ws/install/wheel_legged_urdf_pkg:/home/cat/fishbot_ws/install/lslidar_driver:/home/cat/fishbot_ws/install/fishbot_navigation2:/home/cat/fishbot_ws/install/fishbot_description:/home/cat/fishbot_ws/install/fishbot_bringup:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake /home/cat/fishbot_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/cat/fishbot_ws/install/lslidar_driver
+[0.241s] -- The C compiler identification is GNU 11.4.0
+[0.461s] -- The CXX compiler identification is GNU 11.4.0
+[0.484s] -- Detecting C compiler ABI info
+[0.740s] -- Detecting C compiler ABI info - done
+[0.807s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.809s] -- Detecting C compile features
+[0.810s] -- Detecting C compile features - done
+[0.828s] -- Detecting CXX compiler ABI info
+[1.181s] -- Detecting CXX compiler ABI info - done
+[1.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.224s] -- Detecting CXX compile features
+[1.227s] -- Detecting CXX compile features - done
+[1.877s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.896s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.495s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.965s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.980s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.006s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.232s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.241s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.542s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.609s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.699s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.724s] -- Found Threads: TRUE  
+[3.931s] -- Checking for module 'eigen3'
+[3.972s] --   Found eigen3, version 3.4.0
+[4.083s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.084s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.152s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[4.183s] -- Checking for module 'flann'
+[4.229s] --   Found flann, version 1.9.1
+[4.383s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[4.385s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[4.496s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[4.509s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[5.028s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[5.029s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[5.035s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[5.064s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[5.114s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[5.142s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[5.471s] -- Found X11: /usr/include   
+[5.473s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[5.768s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[5.768s] -- Looking for gethostbyname
+[6.052s] -- Looking for gethostbyname - found
+[6.053s] -- Looking for connect
+[6.299s] -- Looking for connect - found
+[6.300s] -- Looking for remove
+[6.569s] -- Looking for remove - found
+[6.570s] -- Looking for shmat
+[6.861s] -- Looking for shmat - found
+[6.862s] -- Looking for IceConnectionNumber in ICE
+[7.159s] -- Looking for IceConnectionNumber in ICE - found
+[7.453s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[7.456s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[7.468s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[7.469s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[7.504s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[7.520s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[7.528s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[7.544s] -- Found utf8cpp: /usr/include/utf8cpp  
+[7.821s] -- Checking for module 'libusb-1.0'
+[7.882s] --   Found libusb-1.0, version 1.0.25
+[8.024s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[8.027s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[8.028s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.301s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[8.301s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.302s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[8.760s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.783s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.802s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.243s] -- Found Qhull version 8.0.2
+[9.681s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.107s] -- looking for PCL_COMMON
+[10.109s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[10.110s] -- looking for PCL_KDTREE
+[10.113s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[10.113s] -- looking for PCL_OCTREE
+[10.115s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[10.115s] -- looking for PCL_SEARCH
+[10.118s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[10.120s] -- looking for PCL_SAMPLE_CONSENSUS
+[10.122s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[10.123s] -- looking for PCL_FILTERS
+[10.125s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[10.126s] -- looking for PCL_2D
+[10.130s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[10.131s] -- looking for PCL_GEOMETRY
+[10.131s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[10.132s] -- looking for PCL_IO
+[10.133s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[10.134s] -- looking for PCL_FEATURES
+[10.136s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[10.137s] -- looking for PCL_ML
+[10.139s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[10.140s] -- looking for PCL_SEGMENTATION
+[10.142s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[10.142s] -- looking for PCL_VISUALIZATION
+[10.145s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[10.145s] -- looking for PCL_SURFACE
+[10.148s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[10.149s] -- looking for PCL_REGISTRATION
+[10.151s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[10.152s] -- looking for PCL_KEYPOINTS
+[10.154s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[10.155s] -- looking for PCL_TRACKING
+[10.161s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[10.162s] -- looking for PCL_RECOGNITION
+[10.162s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[10.163s] -- looking for PCL_STEREO
+[10.164s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[10.165s] -- looking for PCL_APPS
+[10.168s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[10.169s] -- looking for PCL_IN_HAND_SCANNER
+[10.170s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[10.172s] -- looking for PCL_MODELER
+[10.173s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[10.173s] -- looking for PCL_POINT_CLOUD_EDITOR
+[10.174s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[10.174s] -- looking for PCL_OUTOFCORE
+[10.177s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[10.178s] -- looking for PCL_PEOPLE
+[10.182s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[10.185s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[10.194s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[10.254s] -- Found lslidar_msgs: 1.2.0 (/home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[10.304s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[10.356s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[10.832s] -- Configuring done
+[10.996s] -- Generating done
+[11.030s] -- Build files have been written to: /home/cat/fishbot_ws/build/lslidar_driver
+[11.095s] Invoked command in '/home/cat/fishbot_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/cat/fishbot_ws/install/lslidar_msgs:/home/cat/fishbot_ws/install/ydlidar:/home/cat/fishbot_ws/install/wheel_legged_urdf_pkg:/home/cat/fishbot_ws/install/lslidar_driver:/home/cat/fishbot_ws/install/fishbot_navigation2:/home/cat/fishbot_ws/install/fishbot_description:/home/cat/fishbot_ws/install/fishbot_bringup:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake /home/cat/fishbot_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/cat/fishbot_ws/install/lslidar_driver
+[11.103s] Invoking command in '/home/cat/fishbot_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/cat/fishbot_ws/install/lslidar_msgs:/home/cat/fishbot_ws/install/ydlidar:/home/cat/fishbot_ws/install/wheel_legged_urdf_pkg:/home/cat/fishbot_ws/install/lslidar_driver:/home/cat/fishbot_ws/install/fishbot_navigation2:/home/cat/fishbot_ws/install/fishbot_description:/home/cat/fishbot_ws/install/fishbot_bringup:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/lslidar_driver -- -j8 -l8
+[11.309s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[11.310s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[11.313s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[11.324s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[70.545s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[78.157s] [100%] Built target lslidar_driver_node
+[78.195s] Invoked command in '/home/cat/fishbot_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/cat/fishbot_ws/install/lslidar_msgs:/home/cat/fishbot_ws/install/ydlidar:/home/cat/fishbot_ws/install/wheel_legged_urdf_pkg:/home/cat/fishbot_ws/install/lslidar_driver:/home/cat/fishbot_ws/install/fishbot_navigation2:/home/cat/fishbot_ws/install/fishbot_description:/home/cat/fishbot_ws/install/fishbot_bringup:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/lslidar_driver -- -j8 -l8
+[78.207s] Invoking command in '/home/cat/fishbot_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/cat/fishbot_ws/install/lslidar_msgs:/home/cat/fishbot_ws/install/ydlidar:/home/cat/fishbot_ws/install/wheel_legged_urdf_pkg:/home/cat/fishbot_ws/install/lslidar_driver:/home/cat/fishbot_ws/install/fishbot_navigation2:/home/cat/fishbot_ws/install/fishbot_description:/home/cat/fishbot_ws/install/fishbot_bringup:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/lslidar_driver
+[78.243s] -- Install configuration: ""
+[78.244s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch
+[78.245s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[78.246s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[78.247s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[78.248s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[78.251s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[78.251s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[78.252s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[78.252s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[78.253s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[78.253s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[78.254s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params
+[78.254s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[78.255s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[78.255s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[78.256s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[78.256s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[78.257s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[78.258s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[78.259s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[78.259s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[78.260s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[78.260s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/rviz
+[78.260s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[78.261s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[78.268s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[78.269s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[78.269s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[78.270s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[78.270s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[78.271s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[78.271s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[78.272s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[78.272s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[78.273s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[78.273s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[78.274s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[78.274s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[78.275s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[78.276s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.276s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[78.277s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[78.277s] -- Installing: /home/cat/fishbot_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[78.317s] Invoked command in '/home/cat/fishbot_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/cat/fishbot_ws/install/lslidar_msgs:/home/cat/fishbot_ws/install/ydlidar:/home/cat/fishbot_ws/install/wheel_legged_urdf_pkg:/home/cat/fishbot_ws/install/lslidar_driver:/home/cat/fishbot_ws/install/fishbot_navigation2:/home/cat/fishbot_ws/install/fishbot_description:/home/cat/fishbot_ws/install/fishbot_bringup:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/lslidar_driver

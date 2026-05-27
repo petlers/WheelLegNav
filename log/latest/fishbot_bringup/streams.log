@@ -1,0 +1,29 @@
+[0.132s] Invoking command in '/home/cat/fishbot_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/fishbot_bringup -- -j8 -l8
+[1.633s] [ 50%] [32mBuilding CXX object CMakeFiles/odom2tf.dir/src/odom2tf.cpp.o[0m
+[35.718s] [100%] [32m[1mLinking CXX executable odom2tf[0m
+[37.501s] [100%] Built target odom2tf
+[37.534s] Invoked command in '/home/cat/fishbot_ws/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/fishbot_bringup -- -j8 -l8
+[37.559s] Invoking command in '/home/cat/fishbot_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/fishbot_bringup
+[37.595s] -- Install configuration: ""
+[37.596s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/lib/fishbot_bringup/odom2tf
+[37.611s] -- Set runtime path of "/home/cat/fishbot_ws/install/fishbot_bringup/lib/fishbot_bringup/odom2tf" to ""
+[37.611s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/lib/fishbot_bringup/serial_bridge_node
+[37.612s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/launch
+[37.613s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/launch/urdf2tf.launch.py
+[37.613s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/launch/bringup.launch.py
+[37.614s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup
+[37.615s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup
+[37.616s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh
+[37.622s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv
+[37.622s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh
+[37.623s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv
+[37.624s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash
+[37.624s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh
+[37.624s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh
+[37.625s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv
+[37.625s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/package.dsv
+[37.626s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup
+[37.628s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake
+[37.630s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake
+[37.635s] -- Installing: /home/cat/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/package.xml
+[37.639s] Invoked command in '/home/cat/fishbot_ws/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/fishbot_bringup

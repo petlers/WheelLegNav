@@ -1,0 +1,16 @@
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot.urdf
+/home/cat/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+/home/cat/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/package.dsv
+/home/cat/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+/home/cat/fishbot_ws/install/fishbot_description/share/fishbot_description/package.xml

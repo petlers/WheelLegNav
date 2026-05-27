@@ -1,0 +1,29 @@
+[0.133s] Invoking command in '/home/cat/fishbot_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/fishbot_navigation2 -- -j8 -l8
+[1.697s] Invoked command in '/home/cat/fishbot_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/fishbot_navigation2 -- -j8 -l8
+[1.707s] Invoking command in '/home/cat/fishbot_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/fishbot_navigation2
+[1.785s] -- Install configuration: ""
+[1.786s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[1.786s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/slam_toolbox.launch.py
+[1.787s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[1.787s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[1.788s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/slam_toolbox.yaml
+[1.790s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[1.791s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[1.793s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[1.793s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[1.795s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[1.795s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[1.798s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[1.800s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[1.810s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[1.811s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[1.812s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[1.813s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[1.815s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[1.816s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[1.819s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[1.823s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[1.824s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[1.829s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[1.831s] -- Up-to-date: /home/cat/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[2.130s] Invoked command in '/home/cat/fishbot_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/fishbot_navigation2

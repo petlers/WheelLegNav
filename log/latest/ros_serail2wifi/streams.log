@@ -1,0 +1,21 @@
+[3.687s] Invoking command in '/home/cat/fishbot_ws/src/ros_serial2wifi': PYTHONPATH=/home/cat/fishbot_ws/build/ros_serail2wifi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/fishbot_ws/install/ros_serail2wifi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_serail2wifi build --build-base /home/cat/fishbot_ws/build/ros_serail2wifi/build install --record /home/cat/fishbot_ws/build/ros_serail2wifi/install.log --single-version-externally-managed install_data
+[5.033s] running egg_info
+[5.036s] writing ../../build/ros_serail2wifi/ros_serail2wifi.egg-info/PKG-INFO
+[5.037s] writing dependency_links to ../../build/ros_serail2wifi/ros_serail2wifi.egg-info/dependency_links.txt
+[5.039s] writing entry points to ../../build/ros_serail2wifi/ros_serail2wifi.egg-info/entry_points.txt
+[5.039s] writing requirements to ../../build/ros_serail2wifi/ros_serail2wifi.egg-info/requires.txt
+[5.040s] writing top-level names to ../../build/ros_serail2wifi/ros_serail2wifi.egg-info/top_level.txt
+[5.049s] reading manifest file '../../build/ros_serail2wifi/ros_serail2wifi.egg-info/SOURCES.txt'
+[5.061s] writing manifest file '../../build/ros_serail2wifi/ros_serail2wifi.egg-info/SOURCES.txt'
+[5.062s] running build
+[5.063s] running build_py
+[5.064s] running install
+[5.065s] running install_lib
+[5.067s] running install_data
+[5.068s] running install_egg_info
+[5.071s] removing '/home/cat/fishbot_ws/install/ros_serail2wifi/lib/python3.10/site-packages/ros_serail2wifi-0.0.0-py3.10.egg-info' (and everything under it)
+[5.072s] Copying ../../build/ros_serail2wifi/ros_serail2wifi.egg-info to /home/cat/fishbot_ws/install/ros_serail2wifi/lib/python3.10/site-packages/ros_serail2wifi-0.0.0-py3.10.egg-info
+[5.076s] running install_scripts
+[5.164s] Installing tcp_server script to /home/cat/fishbot_ws/install/ros_serail2wifi/lib/ros_serail2wifi
+[5.165s] writing list of installed files to '/home/cat/fishbot_ws/build/ros_serail2wifi/install.log'
+[5.299s] Invoked command in '/home/cat/fishbot_ws/src/ros_serial2wifi' returned '0': PYTHONPATH=/home/cat/fishbot_ws/build/ros_serail2wifi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/fishbot_ws/install/ros_serail2wifi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_serail2wifi build --build-base /home/cat/fishbot_ws/build/ros_serail2wifi/build install --record /home/cat/fishbot_ws/build/ros_serail2wifi/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+Invoking command in '/home/cat/fishbot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/lslidar_msgs -- -j8 -l8
+Invoked command in '/home/cat/fishbot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/lslidar_msgs -- -j8 -l8
+Invoking command in '/home/cat/fishbot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/lslidar_msgs
+Invoked command in '/home/cat/fishbot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/lslidar_msgs

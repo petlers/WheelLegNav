@@ -1,0 +1,297 @@
+[0.137s] Invoking command in '/home/cat/fishbot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/lslidar_msgs -- -j8 -l8
+[1.645s] [  1%] Built target lslidar_msgs__cpp
+[1.646s] [  1%] Built target ament_cmake_python_copy_lslidar_msgs
+[1.646s] [  3%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o[0m
+[2.426s] [  4%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o[0m
+[4.400s] [  6%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp.o[0m
+[6.309s] [  7%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o[0m
+[7.801s] [  9%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o[0m
+[9.364s] [ 11%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.634s] [ 12%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[10.857s] running egg_info
+[10.864s] writing lslidar_msgs.egg-info/PKG-INFO
+[10.865s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[10.865s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[10.871s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[10.873s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[11.003s] [ 12%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[11.038s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.433s] [ 15%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_difop__type_support.cpp.o[0m
+[13.447s] [ 17%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o[0m
+[15.125s] [ 19%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_sweep__type_support.cpp.o[0m
+[15.182s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o[0m
+[16.849s] [ 22%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o[0m
+[18.507s] [ 23%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.797s] [ 23%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[18.833s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.848s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_c[0m
+[18.899s] [ 36%] Built target lslidar_msgs__rosidl_generator_c
+[18.943s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.948s] [ 39%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.836s] [ 41%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[20.851s] [ 42%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[20.856s] [ 44%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[21.364s] [ 46%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o[0m
+[21.548s] [ 47%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o[0m
+[21.614s] [ 49%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_difop__type_support_c.cpp.o[0m
+[21.776s] [ 50%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o[0m
+[21.962s] [ 52%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o[0m
+[22.099s] [ 53%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o[0m
+[22.229s] [ 55%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.399s] [ 55%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[22.561s] [ 57%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[23.411s] [ 58%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support_c.cpp.o[0m
+[23.789s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[24.932s] [ 61%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o[0m
+[25.008s] [ 63%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so[0m
+[25.173s] [ 63%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[26.349s] [ 65%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o[0m
+[27.723s] [ 66%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o[0m
+[29.110s] [ 68%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[29.399s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[29.443s] [ 69%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[31.161s] [ 71%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[31.265s] [ 73%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[31.382s] [ 74%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[31.502s] [ 76%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[31.608s] [ 77%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[31.700s] [ 79%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so[0m
+[31.857s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_c
+[31.932s] [ 79%] Built target lslidar_msgs
+[32.017s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[35.942s] [ 80%] Built target lslidar_msgs__py
+[36.029s] [ 82%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_difop_s.c.o[0m
+[36.408s] [ 84%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_sweep_s.c.o[0m
+[36.801s] [ 85%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o[0m
+[37.144s] [ 87%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o[0m
+[37.152s] [ 88%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o[0m
+[37.543s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so[0m
+[37.712s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[37.778s] [ 92%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[37.791s] [ 93%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.150s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[38.179s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[38.315s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[38.358s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[38.383s] [ 98%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[38.747s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[38.911s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[38.958s] Invoked command in '/home/cat/fishbot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/lslidar_msgs -- -j8 -l8
+[38.965s] Invoking command in '/home/cat/fishbot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/lslidar_msgs
+[39.014s] -- Install configuration: ""
+[39.015s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[39.015s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[39.017s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[39.018s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[39.018s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[39.019s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[39.021s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[39.022s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[39.026s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[39.028s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[39.029s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[39.029s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c
+[39.031s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[39.032s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[39.033s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c
+[39.037s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[39.038s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c
+[39.039s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[39.039s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[39.040s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[39.041s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c
+[39.042s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[39.043s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[39.044s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[39.045s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[39.046s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[39.046s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c
+[39.047s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[39.048s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[39.049s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[39.049s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[39.050s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[39.051s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[39.052s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""
+[39.053s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[39.054s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[39.055s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.056s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[39.057s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[39.058s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[39.059s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[39.061s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[39.062s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[39.063s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[39.064s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[39.065s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[39.066s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[39.067s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[39.068s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[39.069s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[39.070s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[39.071s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[39.072s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[39.073s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[39.074s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[39.074s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[39.075s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[39.075s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[39.075s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[39.076s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[39.076s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[39.077s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[39.077s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[39.077s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[39.078s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[39.078s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[39.078s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[39.079s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[39.079s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[39.079s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[39.080s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[39.080s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[39.081s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[39.081s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[39.081s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[39.082s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[39.082s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.082s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[39.083s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps
+[39.083s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[39.083s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[39.084s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[39.084s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[39.085s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[39.085s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[39.085s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.086s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[39.086s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[39.087s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.087s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[39.088s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c
+[39.089s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[39.089s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[39.089s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[39.090s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[39.090s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c
+[39.091s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c
+[39.091s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c
+[39.092s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[39.092s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c
+[39.093s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[39.094s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""
+[39.095s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[39.096s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""
+[39.096s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[39.097s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[39.097s] -- Up-to-date: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[39.097s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[39.097s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[39.098s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp
+[39.098s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp
+[39.098s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[39.099s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp
+[39.099s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp
+[39.100s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[39.100s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[39.100s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp
+[39.101s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[39.101s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[39.102s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[39.102s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""
+[39.102s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[39.103s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[39.103s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info
+[39.104s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[39.104s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[39.105s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[39.105s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[39.105s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs
+[39.106s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg
+[39.106s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[39.107s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[39.107s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[39.108s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[39.108s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[39.109s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[39.110s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[39.110s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[39.111s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[39.111s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[39.113s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[39.113s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.114s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[39.114s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[39.115s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[39.116s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[39.116s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[39.116s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[39.117s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[39.208s] Listing '/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[39.208s] Compiling '/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...
+[39.209s] Listing '/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[39.210s] Compiling '/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...
+[39.210s] Compiling '/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py'...
+[39.211s] Compiling '/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...
+[39.212s] Compiling '/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py'...
+[39.212s] Compiling '/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py'...
+[39.213s] Compiling '/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py'...
+[39.233s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[39.234s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[39.235s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[39.236s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[39.236s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[39.237s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[39.237s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[39.238s] -- Set runtime path of "/home/cat/fishbot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""
+[39.239s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[39.239s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[39.240s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[39.240s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[39.241s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[39.241s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[39.242s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[39.242s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[39.243s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[39.243s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[39.244s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[39.245s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[39.245s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[39.246s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[39.246s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[39.247s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[39.248s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[39.249s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[39.249s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[39.250s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[39.253s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[39.254s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[39.254s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[39.255s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[39.255s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[39.256s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[39.257s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[39.257s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[39.258s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[39.258s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[39.259s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[39.259s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[39.259s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[39.260s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[39.260s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.261s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[39.261s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[39.261s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[39.262s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[39.262s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[39.264s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.264s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.265s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[39.265s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[39.266s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.266s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.267s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[39.268s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[39.268s] -- Installing: /home/cat/fishbot_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[39.299s] Invoked command in '/home/cat/fishbot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/lslidar_msgs

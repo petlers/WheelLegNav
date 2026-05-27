@@ -1,0 +1,35 @@
+[1.534s] Invoking command in '/home/cat/fishbot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/ydlidar -- -j8 -l8
+[1.791s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_node[0m
+[1.901s] [ 91%] Built target ydlidar_node
+[2.078s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_client[0m
+[2.081s] [100%] Built target ydlidar_client
+[2.233s] Invoked command in '/home/cat/fishbot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/ydlidar -- -j8 -l8
+[2.237s] Invoking command in '/home/cat/fishbot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/ydlidar
+[2.256s] -- Install configuration: ""
+[2.258s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[2.259s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[2.260s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/launch
+[2.262s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[2.263s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[2.264s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/params
+[2.265s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[2.266s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/startup
+[2.267s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[2.268s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/config
+[2.281s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/config/ydlidar.rviz
+[2.284s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[2.285s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[2.288s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[2.289s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[2.289s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[2.290s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[2.291s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[2.291s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[2.292s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[2.292s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[2.293s] -- Installing: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/package.dsv
+[2.293s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[2.294s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[2.295s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[2.296s] -- Up-to-date: /home/cat/fishbot_ws/install/ydlidar/share/ydlidar/package.xml
+[2.297s] Invoked command in '/home/cat/fishbot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/ydlidar

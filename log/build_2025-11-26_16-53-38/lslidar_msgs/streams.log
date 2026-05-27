@@ -1,0 +1,64 @@
+[0.130s] Invoking command in '/home/cat/fishbot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake /home/cat/fishbot_ws/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/cat/fishbot_ws/install/lslidar_msgs
+[1.813s] -- The C compiler identification is GNU 11.4.0
+[1.815s] -- The CXX compiler identification is GNU 11.4.0
+[1.816s] -- Detecting C compiler ABI info
+[1.817s] -- Detecting C compiler ABI info - done
+[1.817s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.818s] -- Detecting C compile features
+[1.818s] -- Detecting C compile features - done
+[1.818s] -- Detecting CXX compiler ABI info
+[1.819s] -- Detecting CXX compiler ABI info - done
+[1.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.820s] -- Detecting CXX compile features
+[1.820s] -- Detecting CXX compile features - done
+[1.821s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.504s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.953s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[3.120s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.155s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.207s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.551s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.707s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.764s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.392s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.046s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.620s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.722s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.727s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.867s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.869s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.870s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.870s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[7.973s] -- Found PythonExtra: .so  
+[8.476s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.478s] -- Added test 'lint_cmake' to check CMake code style
+[8.555s] -- Added test 'xmllint' to check XML markup files
+[8.591s] -- Configuring done
+[10.469s] -- Generating done
+[10.505s] -- Build files have been written to: /home/cat/fishbot_ws/build/lslidar_msgs
+[10.507s] Invoked command in '/home/cat/fishbot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake /home/cat/fishbot_ws/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/cat/fishbot_ws/install/lslidar_msgs
+[10.509s] Invoking command in '/home/cat/fishbot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/lslidar_msgs -- -j8 -l8
+[10.510s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.511s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.441s] [  3%] Built target lslidar_msgs__cpp
+[12.549s] [  3%] Built target ament_cmake_python_copy_lslidar_msgs
+[12.585s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.617s] [  6%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o[0m
+[12.618s] [  7%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__functions.c.o[0m
+[12.802s] [  9%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__functions.c.o[0m
+[12.809s] [ 11%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__functions.c.o[0m
+[12.987s] [ 12%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__functions.c.o[0m
+[13.171s] [ 14%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_generator_c.so[0m
+[13.333s] [ 14%] Built target lslidar_msgs__rosidl_generator_c
+[14.584s] running egg_info
+[14.586s] creating lslidar_msgs.egg-info
+[14.587s] writing lslidar_msgs.egg-info/PKG-INFO
+[14.589s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[14.590s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[14.590s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[14.598s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[14.601s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[14.720s] [ 14%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[14.810s] [ 15%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o[0m

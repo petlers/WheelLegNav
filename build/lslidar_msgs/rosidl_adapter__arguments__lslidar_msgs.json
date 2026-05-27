@@ -1,0 +1,10 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/home/cat/fishbot_ws/src/lslidar_msgs:msg/LslidarDifop.msg",
+    "/home/cat/fishbot_ws/src/lslidar_msgs:msg/LslidarPacket.msg",
+    "/home/cat/fishbot_ws/src/lslidar_msgs:msg/LslidarPoint.msg",
+    "/home/cat/fishbot_ws/src/lslidar_msgs:msg/LslidarScan.msg",
+    "/home/cat/fishbot_ws/src/lslidar_msgs:msg/LslidarSweep.msg"
+  ]
+}

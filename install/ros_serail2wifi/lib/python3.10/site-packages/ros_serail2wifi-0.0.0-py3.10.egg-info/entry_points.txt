@@ -1,0 +1,3 @@
+[console_scripts]
+tcp_server = ros_serail2wifi.tcpserver:main
+

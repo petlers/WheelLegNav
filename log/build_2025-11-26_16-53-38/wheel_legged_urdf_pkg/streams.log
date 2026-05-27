@@ -1,0 +1,65 @@
+[1.679s] Invoking command in '/home/cat/fishbot_ws/build/wheel_legged_urdf_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake /home/cat/fishbot_ws/src/wheel_legged_urdf_pkg -DCMAKE_INSTALL_PREFIX=/home/cat/fishbot_ws/install/wheel_legged_urdf_pkg
+[2.009s] -- The C compiler identification is GNU 11.4.0
+[2.259s] -- The CXX compiler identification is GNU 11.4.0
+[2.289s] -- Detecting C compiler ABI info
+[2.781s] -- Detecting C compiler ABI info - done
+[2.834s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.837s] -- Detecting C compile features
+[2.841s] -- Detecting C compile features - done
+[2.861s] -- Detecting CXX compiler ABI info
+[3.250s] -- Detecting CXX compiler ABI info - done
+[3.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.275s] -- Detecting CXX compile features
+[3.279s] -- Detecting CXX compile features - done
+[3.286s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.205s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.999s] -- Configuring done
+[5.013s] -- Generating done
+[5.026s] -- Build files have been written to: /home/cat/fishbot_ws/build/wheel_legged_urdf_pkg
+[5.059s] Invoked command in '/home/cat/fishbot_ws/build/wheel_legged_urdf_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake /home/cat/fishbot_ws/src/wheel_legged_urdf_pkg -DCMAKE_INSTALL_PREFIX=/home/cat/fishbot_ws/install/wheel_legged_urdf_pkg
+[5.066s] Invoking command in '/home/cat/fishbot_ws/build/wheel_legged_urdf_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/wheel_legged_urdf_pkg -- -j8 -l8
+[5.256s] Invoked command in '/home/cat/fishbot_ws/build/wheel_legged_urdf_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --build /home/cat/fishbot_ws/build/wheel_legged_urdf_pkg -- -j8 -l8
+[5.258s] Invoking command in '/home/cat/fishbot_ws/build/wheel_legged_urdf_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/wheel_legged_urdf_pkg
+[5.297s] -- Install configuration: ""
+[5.299s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/config
+[5.300s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/config/display.rviz
+[5.300s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/config/joint_names_wheel_legged_urdf_pkg.yaml
+[5.301s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/launch
+[5.302s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/launch/display.launch
+[5.303s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/launch/gazebo.launch
+[5.304s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/launch/display.launch.py
+[5.304s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes
+[5.305s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/right_l3_link.STL
+[5.328s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/imu_link.STL
+[5.339s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/left_l4_link.STL
+[5.340s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/base_link.STL
+[5.468s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/lidar_link.STL
+[5.469s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/left_front_motor_link.STL
+[5.471s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/right_wheel_motor_link.STL
+[5.473s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/left_wheel_motor_link.STL
+[5.475s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/right_l1_link.STL
+[5.477s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/left_back_motor_link.STL
+[5.479s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/right_front_motor_link.STL
+[5.481s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/left_l3_link.STL
+[5.503s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/right_l4_link.STL
+[5.504s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/right_back_motor_link.STL
+[5.505s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/meshes/left_l1_link.STL
+[5.506s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/urdf
+[5.507s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/urdf/wheel_legged_urdf_pkg.csv
+[5.508s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/urdf/wheel_legged_urdf_pkg.urdf
+[5.509s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/ament_index/resource_index/package_run_dependencies/wheel_legged_urdf_pkg
+[5.510s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/ament_index/resource_index/parent_prefix_path/wheel_legged_urdf_pkg
+[5.512s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/environment/ament_prefix_path.sh
+[5.513s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/environment/ament_prefix_path.dsv
+[5.514s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/environment/path.sh
+[5.515s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/environment/path.dsv
+[5.541s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/local_setup.bash
+[5.542s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/local_setup.sh
+[5.543s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/local_setup.zsh
+[5.544s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/local_setup.dsv
+[5.545s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/package.dsv
+[5.549s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/ament_index/resource_index/packages/wheel_legged_urdf_pkg
+[5.550s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/cmake/wheel_legged_urdf_pkgConfig.cmake
+[5.551s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/cmake/wheel_legged_urdf_pkgConfig-version.cmake
+[5.552s] -- Installing: /home/cat/fishbot_ws/install/wheel_legged_urdf_pkg/share/wheel_legged_urdf_pkg/package.xml
+[5.554s] Invoked command in '/home/cat/fishbot_ws/build/wheel_legged_urdf_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/fishbot_ws/install/ros_serail2wifi:/opt/ros/humble /usr/bin/cmake --install /home/cat/fishbot_ws/build/wheel_legged_urdf_pkg
